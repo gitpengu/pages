@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Consumption Visualizations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        h2 {
+            color: #333;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .image-container {
+            width: 100%;
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Visualiseerimise meetoditega eksperimenteerimine</h1>
+    
+    <h2>1. Dataset: cfb9a6dbf51304eb1744736557.csv </h2>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/daily_consumption.png" alt="Daily Consumption">
+        </div>
+        
+        <div class="image-container">
+            <img src="images/hourly_consumption.png" alt="Hourly Consumption">
+        </div>
+    </div>
+    
+    <h2>2. Multiple datasets: 9e9dca492a061e211740838882.csv, aa9c3ce25421e6231742320435.csv, c550bcace2429c281741504217.csv, cfb9a6dbf51304eb1744736557.csv, d8cd1b7c670501c41742115495.csv </h2>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="images/consumption_line_chart.png" alt="Consumption Line Chart">
+        </div>
+        
+        <div class="image-container">
+            <img src="images/hourly_consumption_radar.png" alt="Hourly Consumption Radar">
+        </div>
+        
+        <div class="image-container">
+            <img src="images/normalized_radar.png" alt="Normalized Radar">
+        </div>
+        
+        <div class="image-container">
+            <img src="images/normalized_heatmap.png" alt="Normalized Heatmap">
+        </div>
+        
+        <div class="image-container">
+            <img src="images/weekday_weekend_comparison.png" alt="Weekday vs Weekend">
+        </div>
+    </div>
+</body>
+</html>
